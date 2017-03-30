@@ -1,1 +1,20 @@
-
+2017-03-29 22:39:20 INFO  ProductController:51 - Getting details of product id:16696652
+2017-03-29 22:39:20 INFO  ProductServiceImpl:40 - Entering the getProductById method
+2017-03-29 22:39:20 INFO  ProductUtility:35 - Entering the getProductDescription method
+2017-03-29 22:39:21 INFO  ProductUtility:41 - The recieved response iscom.rahul.restexample.model.productdescription.Response@155437d0
+2017-03-29 22:39:21 INFO  ProductUtility:43 - Exiting the getProductDescription method
+2017-03-29 22:39:21 INFO  ProductServiceImpl:61 - Exiting the getProductById method
+2017-03-29 22:40:56 INFO  ProductController:72 - Updating product id:16696652
+2017-03-29 22:40:56 INFO  ProductServiceImpl:69 - Entering the updateProductPrice method
+2017-03-29 22:41:37 INFO  ProductController:72 - Updating product id:16696652
+2017-03-29 22:41:37 INFO  ProductServiceImpl:69 - Entering the updateProductPrice method
+2017-03-29 22:41:37 INFO  ProductUtility:35 - Entering the getProductDescription method
+2017-03-29 22:41:38 INFO  ProductUtility:41 - The recieved response iscom.rahul.restexample.model.productdescription.Response@5e4e6101
+2017-03-29 22:41:38 INFO  ProductUtility:43 - Exiting the getProductDescription method
+2017-03-29 22:41:38 INFO  ProductServiceImpl:100 - Exiting the updateProductPrice method
+2017-03-29 22:42:00 INFO  ProductController:51 - Getting details of product id:123
+2017-03-29 22:42:00 INFO  ProductServiceImpl:40 - Entering the getProductById method
+2017-03-29 22:43:42 INFO  ProductController:51 - Getting details of product id:123
+2017-03-29 22:43:42 INFO  ProductServiceImpl:40 - Entering the getProductById method
+2017-03-29 22:46:09 INFO  ProductController:51 - Getting details of product id:123
+2017-03-29 22:46:09 INFO  ProductServiceImpl:40 - Entering the getProductById method

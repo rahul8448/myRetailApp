@@ -17,7 +17,7 @@ import java.io.IOException;
 @ControllerAdvice
 public class ExceptionHandler {
 
-    private final Logger logger = LoggerFactory.getLogger(ExceptionHandler.class);
+    final static Logger logger = LoggerFactory.getLogger(ExceptionHandler.class);
 
     @ResponseStatus(value = HttpStatus.BAD_REQUEST)
     @org.springframework.web.bind.annotation.ExceptionHandler(value = { InvalidParamException.class})
