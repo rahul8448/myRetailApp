@@ -16,6 +16,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 /**
  * Created by rahulsharma on 3/25/17.
+ * This is the Mongo DB configuration class.
  */
 @Configuration
 @EnableMongoRepositories("com.rahul.restexample.repository")

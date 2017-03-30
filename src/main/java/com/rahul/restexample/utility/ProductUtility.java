@@ -1,5 +1,6 @@
 package com.rahul.restexample.utility;
 
+import com.rahul.restexample.exceptions.ServerException;
 import com.rahul.restexample.model.productdescription.Response;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
@@ -26,15 +27,26 @@ public class ProductUtility
      * @param id
      * @return
      */
-    public Response getProductDescription(Long id)
+    public Response getProductDescription(Long id) throws ServerException
     {
-        logger.info("Entering the getProductDescription method");
-        RestTemplate restTemplate = new RestTemplate();
-        String finalUrl=productURL+"/"+id+"?"+queryParams;
         Response response = null;
-        response = restTemplate.getForObject(finalUrl, Response.class);
-        logger.info(response.toString());
-        logger.info("Exiting the getProductDescription method");
+        try
+        {
+            logger.info("Entering the getProductDescription method");
+            RestTemplate restTemplate = new RestTemplate();
+            String finalUrl = productURL + "/" + id + "?" + queryParams;
+
+            response = restTemplate.getForObject(finalUrl, Response.class);
+            if (response != null)
+                logger.info("The recieved response is" + response.toString());
+
+            logger.info("Exiting the getProductDescription method");
+
+        }
+        catch (Exception ex)
+        {
+            throw new ServerException(ex.getMessage());
+        }
         return response;
     }
 }

@@ -4,5 +4,5 @@ build
 src/.gradle
 gradlew
 gradlew.bat
-
+src/.DS_store
 
