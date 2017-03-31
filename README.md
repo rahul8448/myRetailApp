@@ -2,12 +2,12 @@
 This is a simple restful api with two endpoints, one to retrive product data and one to update product price. This application 
 is built in SpringBoot using gradle. 
 
-#Prerequistes
+# Prerequistes
 1. Jdk 1.8
 2. Gradle
 3. No firewall should be running on your local machine as the application needs to connect to a cloud based Mondo DB and the firewall may prevent it from doing so.
 
-#Steps to run the application on your local machine
+# Steps to run the application on your local machine
 1. Download the project
 2. Go to the project root folder in the command prompt or terminal(for mac) and type 'gradle build'. This would download 
    all the dependencies.
