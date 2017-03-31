@@ -12,7 +12,7 @@ is built in SpringBoot using gradle.
 1. Download the project
 2. Go to the project root folder in the command prompt or terminal(for mac) and type 'gradle build'. This would download 
    all the dependencies.
-3. Once the dependencies are pulled, inside the project root folder, run gradle bootRun and let the spring context start the application.
+3. Once the dependencies are pulled, inside the project root folder, run 'gradle bootRun' and let the spring context start the application.
 4. Once the application is running in your local you can open the application homw page by accessing the following url:
    http://localhost:8054/swagger-ui.html.
   This open up the RestFul endpoint documentation cum test page, from where you can try the endpoints. The endpoints description is provided in this page.
