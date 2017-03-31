@@ -14,11 +14,11 @@ is built in SpringBoot using gradle.
    all the dependencies.
 3. Once the dependencies are pulled, inside the project root folder, run gradle bootRun and let the spring context start the application.
 4. Once the application is running in your local you can open the application homw page by accessing the following url:
-   http://localhost:8054/swagger-ui.html
+   http://localhost:8054/swagger-ui.html.
   This open up the RestFul endpoint documentation cum test page, from where you can try the endpoints. The endpoints description is provided in this page.
   
  Note:
- Currently only product id 16696652 and 13860428 have its details in the NoSQL database, so only these product ids can be used in the Swagge UI page. If any other product id is used that might throw an exception.	
+ Currently only product id 16696652 and 13860428 have its details in the NoSQL database, so only these product ids can be used in the Swagge UI page. If any other product id is used that might not give the desired data or perform desired operation.	
 
 
 
